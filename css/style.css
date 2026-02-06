@@ -308,6 +308,13 @@ section h3.section-subheading {
     margin: 0 auto
 }
 
+#portfolio .portfolio-item .portfolio-link img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block
+}
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     background: rgba(50, 50, 50,.5);
     position: absolute;
@@ -407,7 +414,7 @@ section h3.section-subheading {
 .timeline>li .timeline-panel {
     width: 100%;
     float: right;
-    padding: 0 20px 0 100px;
+    padding: 0 16px 0 72px;
     position: relative;
     text-align: left
 }
@@ -429,27 +436,27 @@ section h3.section-subheading {
 .timeline>li .timeline-image {
     left: 0;
     margin-left: 0;
-    width: 80px;
-    height: 80px;
+    width: 48px;
+    height: 48px;
     position: absolute;
     z-index: 100;
     background-color: #7a7a7a;
     color: #fff;
     border-radius: 100%;
-    border: 7px solid #f1f1f1;
+    border: 4px solid #f1f1f1;
     text-align: center
 }
 
 .timeline>li .timeline-image h4 {
-    font-size: 10px;
-    margin-top: 12px;
-    line-height: 14px
+    font-size: 9px;
+    margin-top: 8px;
+    line-height: 12px
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {
     float: right;
     text-align: left;
-    padding: 0 20px 0 100px
+    padding: 0 16px 0 72px
 }
 
 .timeline>li.timeline-inverted>.timeline-panel:before {
@@ -489,84 +496,84 @@ section h3.section-subheading {
     }
 
     .timeline>li {
-        margin-bottom: 100px;
-        min-height: 100px
+        margin-bottom: 72px;
+        min-height: 72px
     }
 
     .timeline>li .timeline-panel {
         width: 41%;
         float: left;
-        padding: 0 20px 20px 30px;
+        padding: 0 16px 16px 24px;
         text-align: right
     }
 
     .timeline>li .timeline-image {
-        width: 100px;
-        height: 100px;
+        width: 64px;
+        height: 64px;
         left: 50%;
-        margin-left: -50px
+        margin-left: -32px
     }
 
     .timeline>li .timeline-image h4 {
-        font-size: 13px;
-        margin-top: 16px;
-        line-height: 18px
+        font-size: 11px;
+        margin-top: 12px;
+        line-height: 14px
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
         float: right;
         text-align: left;
-        padding: 0 30px 20px 20px
+        padding: 0 24px 16px 16px
     }
 }
 
 @media (min-width: 992px) {
     .timeline>li {
-        min-height:150px
+        min-height:110px
     }
 
     .timeline>li .timeline-panel {
-        padding: 0 20px 20px
+        padding: 0 16px 16px
     }
 
     .timeline>li .timeline-image {
-        width: 150px;
-        height: 150px;
-        margin-left: -75px
+        width: 88px;
+        height: 88px;
+        margin-left: -44px
     }
 
     .timeline>li .timeline-image h4 {
-        font-size: 18px;
-        margin-top: 30px;
-        line-height: 26px
+        font-size: 14px;
+        margin-top: 22px;
+        line-height: 18px
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 20px 20px
+        padding: 0 16px 16px
     }
 }
 
 @media (min-width: 1200px) {
     .timeline>li {
-        min-height:170px
+        min-height:124px
     }
 
     .timeline>li .timeline-panel {
-        padding: 0 20px 20px 100px
+        padding: 0 16px 16px 88px
     }
 
     .timeline>li .timeline-image {
-        width: 170px;
-        height: 170px;
-        margin-left: -85px
+        width: 96px;
+        height: 96px;
+        margin-left: -48px
     }
 
     .timeline>li .timeline-image h4 {
-        margin-top: 40px
+        margin-top: 28px
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 100px 20px 20px
+        padding: 0 88px 16px 16px
     }
 }
 
